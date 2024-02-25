@@ -7,7 +7,9 @@ interface FormData {
 
 const getData = async () => {
   try {
-    const response = await axios.get('http://localhost:3000/api/comments/')
+    const response = await axios.get(
+      'https://kings-back.onrender.com/api/comments'
+    )
     const data = response.data
     return data
   } catch (error) {
@@ -16,10 +18,10 @@ const getData = async () => {
   }
 }
 
-const sendData = async (formData : FormData) => {
+const sendData = async (formData: FormData) => {
   try {
     const response = await axios.post(
-      'http://localhost:3000/api/comments/',
+      'https://kings-back.onrender.com/api/comments',
       formData
     )
     return response.data
