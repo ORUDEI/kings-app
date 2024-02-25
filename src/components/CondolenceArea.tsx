@@ -20,7 +20,7 @@ const CondolenceArea = ({ setNewComment }: Props) => {
       const response = await sendData(formData)
       setNewComment(true)
       clearData()
-      toast.success(`Gracias ${response.name} por enviar tus condolencias`)
+      toast.success(`Gracias ${response.name} por enviar tus plegarias`)
     } catch (error) {
       toast.error(`Oops! Hubo un error: ${error}`)
     }
@@ -42,7 +42,7 @@ const CondolenceArea = ({ setNewComment }: Props) => {
       />
       <Textarea
         className='h-40 my-6'
-        placeholder='Deja tus condolencias aquí.'
+        placeholder='Deja tus plegarias aquí.'
         value={comment}
         onChange={(e) => setComment(e.target.value)}
         maxLength={100}
