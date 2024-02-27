@@ -21,7 +21,7 @@ const getData = async () => {
 const sendData = async (formData: FormData) => {
   try {
     const response = await axios.post(
-      'https://kings-back.onrender.com/api/comments',
+      'http://localhost:3000/api/comments/',
       formData
     )
     return response.data

@@ -24,6 +24,11 @@ export const SCORE = [
     win: 1,
     lose: 1,
   },
+  {
+    title: 'SCRIM 6',
+    win: 0,
+    lose: 3,
+  },
 ]
 
 export const PIECHART = [5, 9]

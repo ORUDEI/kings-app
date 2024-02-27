@@ -17,9 +17,9 @@ const ScoreChart = () => {
         chartInstance.current = new Chart<keyof ChartTypeRegistry, (number | [number, number] | Point | BubbleDataPoint | null)[], unknown>(myChartRef, {
           type: 'doughnut',
           data: {
-            labels: ['Ganadas:  35.71%', 'Perdidas: 64.29%'],
+            labels: ['Ganadas:  29.4%', 'Perdidas: 70.6%'],
             datasets: [{
-              data: [5, 9],
+              data: [5, 12],
               backgroundColor: ['rgb(34 197 94)', 'rgb(239 68 68)'],
               hoverBackgroundColor: ['rgb(22 163 74)', 'rgb(220 38 38)'],
             }],

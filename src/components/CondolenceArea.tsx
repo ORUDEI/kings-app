@@ -12,15 +12,23 @@ interface Props {
 const CondolenceArea = ({ setNewComment }: Props) => {
   const [name, setName] = useState('')
   const [comment, setComment] = useState('')
-  const submit = async () => {
+
+  const submit = () => {}
+  
+  const submit666 = async () => {
     try {
       const text = name
       const cleanedText = text.replace(/[@\s]/g, '')
       const formData = { name: cleanedText, comment }
       const response = await sendData(formData)
-      setNewComment(true)
-      clearData()
-      toast.success(`Gracias ${response.name} por enviar tus plegarias`)
+      if (response.response.request.status === 500) {
+        toast.error(response.response.data.message)
+      }
+      if (response.response.request.status === 200) {
+        setNewComment(true)
+        clearData()
+        toast.success(`Gracias ${response.name} por enviar tus plegarias`)
+      }
     } catch (error) {
       toast.error(`Oops! Hubo un error: ${error}`)
     }
