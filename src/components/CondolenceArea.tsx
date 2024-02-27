@@ -13,9 +13,7 @@ const CondolenceArea = ({ setNewComment }: Props) => {
   const [name, setName] = useState('')
   const [comment, setComment] = useState('')
 
-  const submit = () => {}
-  
-  const submit0505 = async () => {
+  const submit = async () => {
     try {
       const text = name
       const cleanedText = text.replace(/[@\s]/g, '')
