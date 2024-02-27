@@ -57,7 +57,7 @@ const CondolenceArea = ({ setNewComment }: Props) => {
       />
       <Button
         className='w-full'
-        onClick={submit}
+        onClick={submit666}
         disabled={name.length < 1 || comment.length < 1}
       >
         Enviar
