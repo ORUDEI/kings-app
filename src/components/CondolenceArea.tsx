@@ -13,7 +13,7 @@ const CondolenceArea = ({ setNewComment }: Props) => {
   const [name, setName] = useState('')
   const [comment, setComment] = useState('')
 
-  const submit = async () => {
+  const submit3322 = async () => {
     try {
       const text = name
       const cleanedText = text.replace(/[@\s]/g, '')
@@ -55,7 +55,7 @@ const CondolenceArea = ({ setNewComment }: Props) => {
       />
       <Button
         className='w-full'
-        onClick={submit}
+        onClick={submit2525}
         disabled={name.length < 1 || comment.length < 1}
       >
         Enviar
