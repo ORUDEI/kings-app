@@ -29,9 +29,14 @@ export const SCORE = [
     win: 0,
     lose: 3,
   },
+  {
+    title: 'SCRIM 7',
+    win: 3,
+    lose: 0,
+  },
 ]
 
-export const PIECHART = [5, 9]
+export const PIECHART = [8, 9]
 
 export const AVATARROSTER = [
  {

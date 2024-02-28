@@ -107,7 +107,7 @@ function App() {
           <div className='flex justify-center gap-6 py-10'>
             <h2 className='text-4xl font-bold'>OVERALL</h2>
             <h3 className='text-4xl font-bold'>
-              <span className='text-rose-400'>5</span> - 12
+              <span className='text-rose-400'>8</span> - 12
             </h3>
           </div>
         </section>
@@ -119,10 +119,10 @@ function App() {
             <div className='flex items-center w-auto h-auto px-6'>
               <p className='p-6 text-3xl text-center text-muted-foreground'>
                 Basado en los resultados anteriores de tus partidos, donde has
-                ganado 5 de 17 partidos, es posible que puedas ganar alguna de
+                ganado 8 de 17 partidos, es posible que puedas ganar alguna de
                 las siguientes 3 partidas. Sin embargo, debido a que la
                 probabilidad de victoria para tu equipo es relativamente baja
-                (aproximadamente 29.4%), también existe la posibilidad de que
+                (aproximadamente 40%), también existe la posibilidad de que
                 pierdas los tres partidos.
               </p>
             </div>
