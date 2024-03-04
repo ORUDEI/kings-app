@@ -19,7 +19,7 @@ const ScoreChart = () => {
           data: {
             labels: ['Ganadas:  47.83%', 'Perdidas: 52.17%'],
             datasets: [{
-              data: [11, 12],
+              data: [13, 14],
               backgroundColor: ['rgb(34 197 94)', 'rgb(239 68 68)'],
               hoverBackgroundColor: ['rgb(22 163 74)', 'rgb(220 38 38)'],
             }],
