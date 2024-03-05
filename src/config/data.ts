@@ -44,6 +44,11 @@ export const SCORE = [
     win: 2,
     lose: 2,
   },
+  {
+    title: 'SCRIM 10',
+    win: 1,
+    lose: 3,
+  },
 ]
 
 export const AVATARROSTER = [
