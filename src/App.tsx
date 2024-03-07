@@ -107,7 +107,7 @@ function App() {
           <div className='flex justify-center gap-6 py-10'>
             <h2 className='text-4xl font-bold'>OVERALL</h2>
             <h3 className='text-4xl font-bold'>
-              <span className='text-rose-400'>14</span> - 17
+              <span className='text-rose-400'>17</span> - 21
             </h3>
           </div>
         </section>
@@ -119,7 +119,7 @@ function App() {
             <div className='flex items-center w-auto h-auto px-6'>
               <p className='p-6 text-3xl text-center text-muted-foreground'>
                 Basado en los resultados anteriores de tus partidos, donde has
-                ganado 14 de 31 partidos, es muy probable que puedas continuar
+                ganado 17 de 38 partidos, es muy probable que puedas continuar
                 con tu racha ganadora y tener buenas posibilidades de ganar las
                 siguientes 3 partidas. Sigue trabajando duro y confiando en tu
                 equipo, ¡y esperamos que sigas teniendo éxito en los próximos
